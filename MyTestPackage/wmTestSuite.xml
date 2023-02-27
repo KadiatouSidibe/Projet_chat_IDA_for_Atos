@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="Auto Generated from Template" name="TS_wmTestSuite.xml">
+    <webMethodsTestCase description="Generate a Test Wizard" name="TC_showXmlString">
+        <service folder="services" name="showXmlString">
+            <input>
+                <file filename="services_showXmlString_input.xml"/>
+            </input>
+            <expected>
+                <file filename="services_showXmlString_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
