@@ -1,0 +1,19 @@
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: webMethods-Open-Source/webMethods-IntegrationServer-Test-Suite-Runner@v1.0
+      with:
+        packageName: 'MyTestPackage'
+        testFolderName: 'setup'
+        serverUrl: 'http://mywebmethodsinstance:5555'
+        username: Administrator
+        password: manage
+        testSuiteFilePath: '../../MyTestpackage/resources/test/setup/test.xml'
+        
