@@ -1,0 +1,37 @@
+name: WebMethods Unit Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  webmethods_test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install webMethods Integration Server Test Suite Runner
+      uses: webMethods-Open-Source/webMethods-IntegrationServer-Test-Suite-Runner@v1.0
+
+    - name: Run webMethods tests
+      run: |
+        java -cp "lib/*" com.webmethods.scu.test.runner.ConsoleRunner \
+          -s $TEST_SERVER_URL \
+          -u $TEST_USERNAME \
+          -p $TEST_PASSWORD \
+          -t $TEST_SUITE_FILE_PATH \
+          -P $TEST_PACKAGE_NAME \
+          -F $TEST_FOLDER_NAME \
+          -r junit \
+          -o reports
+      env:
+        TEST_SERVER_URL: 'http://localhost:5555'
+        TEST_USERNAME: Administrator
+        TEST_PASSWORD: manage
+        TEST_PACKAGE_NAME: 'MyTestPackage'
+        TEST_FOLDER_NAME: 'setup'
+        TEST_SUITE_FILE_PATH: '../../MyTestpackage/resources/test/setup/test.xml'
