@@ -1,17 +1,7 @@
-version: '3'
+version: '3.9'
 services:
-  flow-serve-builder:
-    build:
-      context: .
-      dockerfile: |
-        FROM sagcr.azurecr.io/webmethods-integrationserver:10.15
-        COPY MyTestPackage /opt/softwareag/IntegrationServer/instances/default/package
-        EXPOSE 5555 9999
-        CMD ["/opt/softwareag/IntegrationServer/bin/server.sh", "start"]
-    image: flow-serve
-
-  flow-serve-runner:
-    image: flow-serve
+  webmethods:
+    image:  my-flow-service
     environment:
       NODE_NAME: node
       PORT: 5555
@@ -20,3 +10,4 @@ services:
     ports:
       - "5555:5555"
       - "9999:9999"
+    command: [ "/opt/softwareag/IntegrationServer/bin/server.sh", "start"]
