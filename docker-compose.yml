@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   webmethods:
-    image: sagcr.azurecr.io/webmethods-integrationserver:10.15
+    image: my-flow-service
     environment:
       NODE_NAME: node
       PORT: 5555
