@@ -12,7 +12,4 @@ ENV PATH="$PATH:$JAVA_HOME/bin"
 COPY MyTestPackage /opt/softwareag/IntegrationServer/instances/default/package
 
 # Exposer le port utilisé par le service webMethods Flow
-EXPOSE 5555 9999
-
-# Démarrer le serveur webMethods
-CMD [ "/opt/softwareag/IntegrationServer/bin/server.sh", "start"]
+EXPOSE 5555
