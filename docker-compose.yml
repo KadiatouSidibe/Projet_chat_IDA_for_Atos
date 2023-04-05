@@ -1,6 +1,8 @@
 version: '3.9'
 services:
   webmethods:
+   build:
+      context: .
     image:  my-flow-service
     environment:
       NODE_NAME: node
