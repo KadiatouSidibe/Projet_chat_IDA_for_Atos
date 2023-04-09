@@ -30,4 +30,14 @@
             </expected>
         </service>
     </webMethodsTestCase>
+    <webMethodsTestCase name="projet_exist">
+        <service folder="services" name="showXmlString">
+            <input>
+                <file filename="resources/test/data/ok_services_showXmlString_projet_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/ok_services_showXmlString_projet_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
 </webMethodsTestSuite>
