@@ -11,3 +11,4 @@ services:
     environment:
       - NODE_NAME=node
       - PORT=5555
+    command: /opt/softwareag/IntegrationServer/bin/server.sh start
