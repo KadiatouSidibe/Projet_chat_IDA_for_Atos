@@ -1,7 +1,0 @@
-Testsuite: com.softwareag.utf.runner.UTFSuiteCompositeRunner$init
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2,352 sec
-
-Testcase: 0.0 name_is_sidibe took 0,66 sec
-Testcase: 0.1 nameExiste took 0,075 sec
-Testcase: 0.2 nameUnexiste took 0,062 sec
-Testcase: 0.3 projet_exist took 0,066 sec
