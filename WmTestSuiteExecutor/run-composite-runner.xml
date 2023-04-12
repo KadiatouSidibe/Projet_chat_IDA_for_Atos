@@ -32,7 +32,6 @@ h. webMethods.test.setup.external.classpath.layout= this property suggests the i
 	<property name="webMethods.test.profile.result.location" location="test/reports" />
 	<property name="test.reports.dir" location="${webMethods.test.profile.result.location}" />
 
-	<import file="run-test-suites.xml" />
 	<!-- SETUP CLASSPATHS AND OTHER REFERENCES -->
 	<path id="classpath.testsuite">
 		<fileset dir="${webMethods.home}/common/lib/testsuite">
