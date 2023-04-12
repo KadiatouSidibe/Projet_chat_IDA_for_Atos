@@ -216,7 +216,7 @@ You can update/modify "runall-test" target to exclude/include test suite package
 
 	<target name="init" depends="validate-configuration, determine-packages-dir">
 		<!-- create build directories -->
-		
+		<mkdir dir="${java.build.dir}" />
 		<mkdir dir="${test.build.dir}" />
 		<mkdir dir="${java.jars.dir}" />
 		<mkdir dir="${test.jars.dir}" />
