@@ -1,7 +1,7 @@
 Testsuite: com.softwareag.utf.runner.UTFSuiteCompositeRunner$init
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.36 sec
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.434 sec
 
-Testcase: initializationError took 0.01 sec
+Testcase: initializationError took 0.017 sec
 	Caused an ERROR
 Connection refused (Connection refused)
 java.net.ConnectException: Connection refused (Connection refused)
