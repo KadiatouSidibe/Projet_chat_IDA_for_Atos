@@ -1,0 +1,1 @@
+{"includeServiceLevelReport":false,"querySubject":"packageCoverageInfo","elementStruct":"cascadedByNamespace","packageFilter":["MyTestPackage"],"Stats":{"instruction":{"ID":-1,"Type":"Ghost","childCount":33,"visitedChildCount":24}},"pckmap":[["632e22da-6ea8-441e-ac6b-dd94482b085c","MyTestPackage","33","24"]]}
