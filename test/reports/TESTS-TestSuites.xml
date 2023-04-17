@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-7693RGL" id="0" name="TS_test_xml" package="MyTestPackage" skipped="0" tests="4" time="0.331" timestamp="2023-04-12T13:09:10">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="webMethods.home" value="C:\Users\a877386\Downloads\wMServiceDesigner" />
+
+          <property name="watt.net.proxyUser" value="" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="test.reports.dir" value="C:\Users\a877386\workspace\WmTestSuiteExecutor\test\reports" />
+
+          <property name="watt.net.secureProxyPass" value="" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ant\bin\.." />
+
+          <property name="java.runtime.version" value="19.0.2+7-44" />
+
+          <property name="user.name" value="a877386" />
+
+          <property name="watt.net.proxyPass" value="" />
+
+          <property name="stdout.encoding" value="Cp1252" />
+
+          <property name="user.language" value="fr" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin" />
+
+          <property name="ant.project.default-target" value="composite-runner-all-tests" />
+
+          <property name="ant.project.name" value="WmTestSuite Runner Builder" />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="java.version" value="19.0.2" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="http.nonProxyHosts" value="" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="63.0" />
+
+          <property name="ant.file.type.WmTestSuite Runner Builder" value="file" />
+
+          <property name="user.country" value="FR" />
+
+          <property name="webMethods.integrationServer.userid" value="Administrator" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk-19" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="ant.file" value="C:\Users\a877386\workspace\WmTestSuiteExecutor\run-composite-runner.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="watt.net.secureProxyHost" value="" />
+
+          <property name="webMethods.test.profile.result.includeExecutionModelReport" value="false" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="19.0.2+7-44" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ant\lib" />
+
+          <property name="stderr.encoding" value="Cp1252" />
+
+          <property name="webMethods.integrationServer.port" value="5555" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ant.file.WmTestSuite Runner Builder" value="C:\Users\a877386\workspace\WmTestSuiteExecutor\run-composite-runner.xml" />
+
+          <property name="watt.net.proxyHost" value="" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\a877386" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Users\a877386\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\a877386\AppData\Local\Programs\Python\Python311\;C:\Users\a877386\AppData\Local\Microsoft\WindowsApps;C:\Users\a877386\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\a877386\AppData\Local\Programs\Git\cmd;C:\Users\a877386\AppData\Roaming\npm;." />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="pack.location" value="C:/Users/a877386/git/Projet_chat_IDA_for_Atos/MyTestPackage" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="webMethods.test.setup.profile.mode" value="COVERAGE" />
+
+          <property name="webMethods.test.profile.result.location" value="C:/Users/a877386/workspace/WmTestSuiteExecutor/test/reports/" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="java.class.path" value="C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\testsuite\commons-jxpath-1.2.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\testsuite\hamcrest-core.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\testsuite\httpunit.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\testsuite\javax.xml.soap-api.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\testsuite\junit.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\testsuite\serviceInterceptor.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\testsuite\serviceMockClient.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\testsuite\wmjxpath.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\testsuite\xmlunit1.0.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\glassfish\jersey-media-json-jackson.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ext\jackson-annotations.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ext\jackson-core.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ext\jackson-databind.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ext\jackson-dataformat-cbor.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ext\jackson-dataformat-yaml.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ext\jackson-module-jaxb-annotations.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ext\jackson-module-jsonschema.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ext\openapi\jackson-datatype-jsr310.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ext\xml-apis.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\wm-isclient.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ext\icu4j.jar;C:\Users\a877386\Downloads\wMServiceDesigner\IntegrationServer\lib\wm-isserver.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\wm-g11nutils.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\glassfish\gf.jakarta.mail.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ant\ant-contrib-1.0b3.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ant\lib\ant-launcher.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ant\lib\ant.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ant\lib\ant-junit.jar;C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ant\lib\ant-junit4.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.softwareag.utf.runner.UTFSuiteCompositeRunner$init skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,C:\Users\a877386\workspace\WmTestSuiteExecutor\test\reports\TEST-com.softwareag.utf.runner.UTFSuiteCompositeRunner$init.txt formatter=com.softwareag.utf.runner.XMLJUnitResultFormatter,C:\Users\a877386\workspace\WmTestSuiteExecutor\test\reports\TEST-com.softwareag.utf.runner.UTFSuiteCompositeRunner$init.xml crashfile=C:\Users\a877386\workspace\WmTestSuiteExecutor\junitvmwatcher805661497416769594.properties propsfile=C:\Users\a877386\workspace\WmTestSuiteExecutor\junit6468258303429503122.properties" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+
+          <property name="webMethods.test.scope.packages.set" value="true" />
+
+          <property name="native.encoding" value="Cp1252" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="webMethods.integrationServer.ssl" value="false" />
+
+          <property name="java.vm.specification.version" value="19" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\a877386\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="webMethods.integrationServer.name" value="localhost" />
+
+          <property name="webMethods.test.scope.packages" value="MyTestPackage" />
+
+          <property name="webMethods.test.profile.result.includeServiceLevelReport" value="false" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="watt.net.secureProxyPort" value="" />
+
+          <property name="test.externalClasspath.dir" value="C:/Users/a877386/git/Projet_chat_IDA_for_Atos/MyTestPackage/resources/jars,C:/Users/a877386/git/Projet_chat_IDA_for_Atos/MyTestPackage/resources/java/jars,C:/Users/a877386/git/Projet_chat_IDA_for_Atos/MyTestPackage/resources/test/jars,C:/Users/a877386/git/Projet_chat_IDA_for_Atos/MyTestPackage/resources/java/classes,C:/Users/a877386/git/Projet_chat_IDA_for_Atos/MyTestPackage/resources/test/classes,/**/*.class/**/*.class/**/*.class/**/*.class/**/*.class" />
+
+          <property name="user.dir" value="C:\Users\a877386\workspace\WmTestSuiteExecutor" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\Users\a877386\workspace\WmTestSuiteExecutor" />
+
+          <property name="ant.java.version" value="19" />
+
+          <property name="ant.core.lib" value="C:\Users\a877386\Downloads\wMServiceDesigner\common\lib\ant\lib\ant.jar" />
+
+          <property name="webMethods.test.setup.external.classpath.layout" value="resources/test/classes,resources/java/classes,resources/test/jars,resources/java/jars,resources/jars" />
+
+          <property name="watt.net.proxyPort" value="" />
+
+          <property name="current.project" value="WmTestSuiteExecutor" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="watt.net.secureProxyUser" value="" />
+
+          <property name="webMethods.integrationServer.password" value="manage" />
+
+          <property name="java.specification.version" value="19" />
+
+          <property name="ant.project.invoked-targets" value="composite-runner-all-tests" />
+
+          <property name="webMethods.test.setup.location.set" value="true" />
+
+          <property name="webMethods.test.setup.location" value="C:/Users/a877386/git/Projet_chat_IDA_for_Atos/MyTestPackage" />
+
+      </properties>
+
+      <testcase classname="com.wm.ps.test.WmTestCase" name="0.0 name_is_sidibe" time="0.128" />
+
+      <testcase classname="com.wm.ps.test.WmTestCase" name="0.1 nameExiste" time="0.045" />
+
+      <testcase classname="com.wm.ps.test.WmTestCase" name="0.2 nameUnexiste" time="0.039" />
+
+      <testcase classname="com.wm.ps.test.WmTestCase" name="0.3 projet_exist" time="0.061" />
+
+  </testsuite>
+</testsuites>

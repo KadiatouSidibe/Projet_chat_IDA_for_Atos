@@ -1,0 +1,21 @@
+Testsuite: com.softwareag.utf.runner.UTFSuiteCompositeRunner$init
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,194 sec
+------------- Standard Output ---------------
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Suite Started : TS_test.xml file=C:\Users\a877386\git\Projet_chat_IDA_for_Atos\MyTestPackage\resources\test\setup\test.xml
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Test Started: 0.0 name_is_sidibe
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Test Finished: 0.0 name_is_sidibe
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Duration : 0.1218 seconds
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Result: Success
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Test Started: 0.1 nameExiste
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Test Finished: 0.1 nameExiste
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Duration : 0.0392 seconds
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Result: Success
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Test Started: 0.2 nameUnexiste
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Test Finished: 0.2 nameUnexiste
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Duration : 0.0317 seconds
+[WmTestSuite]::Wed Apr 12 15:09:10 CEST 2023::Resu------------- ---------------- ---------------
+
+Testcase: 0.0 name_is_sidibe took 0,143 sec
+Testcase: 0.1 nameExiste took 0,046 sec
+Testcase: 0.2 nameUnexiste took 0,039 sec
+Testcase: 0.3 projet_exist took 0,062 sec
