@@ -1,5 +1,5 @@
 # Utilisez l'image officielle de webMethods comme point de départ
-FROM sagcr.azurecr.io/webmethods-integrationserver:10.7
+FROM sagcr.azurecr.io/webmethods-integrationserver:10.15
 
 # Définir les variables d'environnement
 ENV NODE_NAME=node
